@@ -6,7 +6,7 @@ import pandas as pd
 def problem_1(query):
     try:
         # connecting database to python
-        conn = psycopg2.connect(database="assignment", user="postgres", password="Danish01#", host="localhost", port="5432")
+        conn = psycopg2.connect(database="assignment", user="postgres", password="naresh", host="localhost", port="5432")
         logging.info("Connecting to database...")
         print("Connected.")
         cur = conn.cursor()
