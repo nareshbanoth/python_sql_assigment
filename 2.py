@@ -7,7 +7,7 @@ def problem_2(query):
     try:
 
         # connecting to database
-        conn = psycopg2.connect(database="assignment", user="postgres", password="Danish01#", host="localhost",
+        conn = psycopg2.connect(database="assignment", user="postgres", password="naresh", host="localhost",
                                 port="5432")
         logging.info("Connecting to database...")
         print("Connected.")
